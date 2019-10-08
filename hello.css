@@ -1,0 +1,45 @@
+body {
+/*	border: 10px solid #bdc3c7;
+*/	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: 'Source Serif Pro', serif;
+}
+
+h1	{
+	font-size: 700;
+	color: #2c3e50;
+	letter-spacing: 0.2rem;
+	border-bottom: 5px double #bdc3c7;
+	padding: 10px;
+/*	text-align: left;*/
+}
+
+h3	{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 700;
+	text-transform: uppercase;
+	color: #2c3e50;
+/*	text-align: center;*/
+}
+
+li {
+	/*text-align: center;*/
+}
+
+ul {
+	list-style: none;
+}
+
+ul li::before {
+  content: "\200B";
+}
+
+hr {
+	    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+    background-image: linear-gradient(to right, #ccc, #bdc3c7, #ccc);
+	/*border-top: 3px double #bdc3c7;
+*/}
