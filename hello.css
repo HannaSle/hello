@@ -27,13 +27,49 @@ button {
 }
 
 .jumbotron {
-  background: url(img/jumbotron_bg.jpeg);
-  background-size: cover;
-  background-position: top;
-  text-align: center;
+    background: url(img/jumbotron_bg.jpeg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
 }
+
 .footer {
 	text-align: center;
 	margin-top: 20px;
-	color: grey;
+}
+
+.img-thumbnail {
+	margin: 4px;
+}
+
+.dark-mode {
+	color: white;
+	background-color: black;
+}
+
+.colored-mode {
+	color: #CCF381;
+	background-color: #4931D4;
+}
+
+.dark-mode-hr {
+    border: none;   
+    color: white;  
+    background-color: white; 
+    height: 2px; 
+   }
+
+.colored-mode-hr {
+	border: none;
+	color: #CCF381;
+	background-color: #CCF381;
+	height: 2px;
+}
+
+.dark-mode-h1 {
+ 	border-bottom: 5px double white;
+ }
+
+.colored-mode-h1 {
+	border-bottom: 5px double #CCF381;
 }
